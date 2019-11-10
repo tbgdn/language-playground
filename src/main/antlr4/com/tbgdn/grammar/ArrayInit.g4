@@ -3,10 +3,6 @@
  */
 grammar ArrayInit;
 
-@header {
-package com.tbgdn.grammar;
-}
-
 /** A rule called init that matches comma-separated values between {...}. */
 init  : '{' value (',' value)* '}' ;  // must match at least one value
 
