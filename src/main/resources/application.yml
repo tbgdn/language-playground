@@ -1,0 +1,6 @@
+languages:
+  chapter03:
+    array-init: '/array.txt'
+  chapter04:
+    expression: '/expression.txt'
+    expression-library: '/expression.txt'

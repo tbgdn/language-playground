@@ -1,4 +1,4 @@
-package com.tbgdn;
+package com.tbgdn.chapter03;
 
 import com.tbgdn.grammar.ArrayInitBaseListener;
 import com.tbgdn.grammar.ArrayInitParser;
