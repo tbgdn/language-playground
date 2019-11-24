@@ -4,3 +4,4 @@ languages:
   chapter04:
     expression: '/expression.txt'
     expression-library: '/expression.txt'
+    calculator: '/expression.txt'
