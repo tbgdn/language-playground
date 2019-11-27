@@ -5,3 +5,4 @@ languages:
     expression: '/expression.txt'
     expression-library: '/expression.txt'
     calculator: '/expression.txt'
+    java-interface: '/Demo.java'
