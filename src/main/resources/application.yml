@@ -6,3 +6,4 @@ languages:
     expression-library: '/expression.txt'
     calculator: '/expression.txt'
     java-interface: '/Demo.java'
+    rows: '/t.rows'
