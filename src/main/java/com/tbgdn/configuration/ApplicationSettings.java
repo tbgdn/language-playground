@@ -15,4 +15,5 @@ public class ApplicationSettings {
 
     private Map<String, String> chapter03;
     private Map<String, String> chapter04;
+    private Map<String, String> chapter07;
 }

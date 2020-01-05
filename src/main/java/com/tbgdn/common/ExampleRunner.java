@@ -15,6 +15,9 @@ public class ExampleRunner implements CommandLineRunner {
 
     @Override
     public void run(String... args) {
-        this.examples.forEach(runner -> runner.run(args));
+        this.examples.forEach(runner -> {
+            System.out.println("\nRunning example: " + runner.getClass().getSimpleName());
+            runner.run(args);
+        });
     }
 }

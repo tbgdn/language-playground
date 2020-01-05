@@ -12,4 +12,5 @@ public class FileKeys {
     public static final String CALCULATOR = "calculator";
     public static final String JAVA_INTERFACE = "java-interface";
     public static final String ROWS = "rows";
+    public static final String PROPERTY_FILE = "property-file";
 }

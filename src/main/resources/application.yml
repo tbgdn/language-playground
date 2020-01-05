@@ -7,3 +7,5 @@ languages:
     calculator: '/expression.txt'
     java-interface: '/Demo.java'
     rows: '/t.rows'
+  chapter07:
+    property-file: '/t.properties'

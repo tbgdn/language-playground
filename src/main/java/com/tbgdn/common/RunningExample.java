@@ -16,7 +16,9 @@ public interface RunningExample {
             inputFilePath = args[0];
         }
         InputStream in = System.in;
-        if (inputFilePath != null) {
+        if (inputFilePath == null) {
+            System.out.println("[WARNING] Reading input from System Input...");
+        }else{
             in = this.getClass().getResourceAsStream(inputFilePath);
         }
         try {
